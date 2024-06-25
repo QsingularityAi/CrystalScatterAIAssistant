@@ -1,0 +1,311 @@
+# Name of the experiment = Sphere,large,mono
+
+# Alpha  (Internal 'alphash')
+ena_Alpha=false
+val_Alpha=0
+
+# Enable/Disable Ay1
+ena_Ay1=false
+val_Ay1=0
+
+# Enable/Disable Ay2
+ena_Ay2=false
+val_Ay2=1
+
+# Enable/Disable Ay3
+ena_Ay3=false
+val_Ay3=0
+
+# Enable/Disable Az1
+ena_Az1=false
+val_Az1=0
+
+# Enable/Disable Az2
+ena_Az2=false
+val_Az2=0
+
+# Enable/Disable Az3
+ena_Az3=false
+val_Az3=0
+
+# Enable/Disable Base
+ena_Base=false
+val_Base=0
+
+# Enable/Disable Twinned
+ena_Twinned=false
+val_Twinned=False
+
+# Enable/Disable WAXS
+ena_WAXS=false
+val_WAXS=False
+
+# Enable/Disable CBInterior
+ena_CBInterior=false
+val_CBInterior=type value
+
+# CBParticle  (Particle type selection)
+ena_CBParticle=false
+val_CBParticle=type value
+
+# Enable/Disable CBPeak
+ena_CBPeak=false
+val_CBPeak=Anisotropic Gaussian {7}
+
+# Enable/Disable Azi
+ena_Azi=false
+val_Azi=0.02
+
+# Enable/Disable BFactor
+ena_BFactor=false
+val_BFactor=1
+
+# Enable/Disable Ceff
+ena_Ceff=false
+val_Ceff=0.01
+
+# Enable/Disable Ceffcyl
+ena_Ceffcyl=false
+val_Ceffcyl=0
+
+# Enable/Disable Dbeta
+ena_Dbeta=false
+val_Dbeta=0.3
+
+# DebyeWaller  (Also called Displacement [nm])
+ena_DebyeWaller=false
+val_DebyeWaller=1.71
+
+# Det  (Distance Sample - Detector [m])
+ena_Det=false
+val_Det=1.71
+
+# Enable/Disable Dist
+ena_Dist=false
+val_Dist=1
+
+# DomainSize  (Radial domain size [nm])
+ena_DomainSize=false
+val_DomainSize=10
+
+# Enable/Disable LatticeType
+ena_LatticeType=false
+val_LatticeType=cubic
+
+# Enable/Disable PeakPar
+ena_PeakPar=false
+val_PeakPar=1
+
+# PixelNoX  (Number of horizontal detector pixel)
+ena_PixelNoX=false
+val_PixelNoX=100
+
+# PixelNoY  (Number of vertical detector pixel)
+ena_PixelNoY=false
+val_PixelNoY=100
+
+# PixelX  (Width of one detector pixel [mm])
+ena_PixelX=false
+val_PixelX=0.01
+
+# PixelY  (Height of one detector pixel [mm])
+ena_PixelY=false
+val_PixelY=0.01
+
+# Qmax  (Qmax preset from user [nm-1])
+ena_Qmax=false
+val_Qmax=0.1
+
+# QmaxData  (Use the Qmax from the data)
+ena_QmaxData=false
+val_QmaxData=True
+
+# QmaxPreset  (Use the Qmax provided here)
+ena_QmaxPreset=false
+val_QmaxPreset=True
+
+# Radius  (Inner radius)
+ena_Radius=false
+val_Radius=0
+
+# Radiusi  (Outer radius)
+ena_Radiusi=false
+val_Radiusi=10
+
+# Enable/Disable Rho
+ena_Rho=false
+val_Rho=0.5
+
+# Enable/Disable Sigma
+ena_Sigma=false
+val_Sigma=0.1
+
+# Wavelength  (Wavelength [nm])
+ena_Wavelength=false
+val_Wavelength=0.1
+
+# HKLmax  (Number of iterations in the h,k,l-loops)
+ena_HKLmax=true
+val_HKLmax=3
+
+# Enable/Disable I0
+ena_I0=true
+val_I0=1000
+
+# LType  (Lattice type selection)
+ena_LType=false
+val_LType=cubic
+
+# Enable/Disable Length
+ena_Length=false
+val_Length=15
+
+# Enable/Disable Ordis
+ena_Ordis=false
+val_Ordis=isotropic {7}
+
+# Enable/Disable P1
+ena_P1=false
+val_P1=0
+
+# Enable/Disable DebyeScherrer
+ena_DebyeScherrer=false
+val_DebyeScherrer=False
+
+# Enable/Disable RBPara
+ena_RBPara=false
+val_RBPara=False
+
+# Enable/Disable RotAlpha
+ena_RotAlpha=false
+val_RotAlpha=45
+
+# Enable/Disable SigX
+ena_SigX=false
+val_SigX=0.5
+
+# Enable/Disable SigY
+ena_SigY=false
+val_SigY=0.5
+
+# Enable/Disable SigZ
+ena_SigZ=false
+val_SigZ=0.5
+
+# Enable/Disable SigmaL
+ena_SigmaL=false
+val_SigmaL=0.5
+
+# Enable/Disable Ax1
+ena_Ax1=false
+val_Ax1=0
+
+# Enable/Disable Ax2
+ena_Ax2=false
+val_Ax2=0
+
+# Enable/Disable Ax3
+ena_Ax3=false
+val_Ax3=0
+
+# Enable/Disable acpl
+ena_acpl=false
+val_acpl=0.5
+
+# Enable/Disable bcpl
+ena_bcpl=false
+val_bcpl=0.5
+
+# Enable/Disable ifluc
+ena_ifluc=false
+val_ifluc=0.5
+
+# Enable/Disable iso
+ena_iso=false
+val_iso=0.5
+
+# Enable/Disable phi
+ena_phi=false
+val_phi=0
+
+# Enable/Disable reff
+ena_reff=false
+val_reff=0
+
+# Enable/Disable rfluc
+ena_rfluc=false
+val_rfluc=0
+
+# Enable/Disable rotPhi
+ena_rotPhi=false
+val_rotPhi=0
+
+# Enable/Disable rotTheta
+ena_rotTheta=false
+val_rotTheta=0
+
+# Enable/Disable theta
+ena_theta=false
+val_theta=0
+
+# uca  (Unit cell dimension a [nm])
+ena_uca=false
+val_uca=5
+
+# ucalpha  (Unit cell rotation alpha [°])
+ena_ucalpha=false
+val_ucalpha=90
+
+# ucb  (Unit cell dimension b [nm])
+ena_ucb=false
+val_ucb=5
+
+# ucbeta  (Unit cell rotation beta [°])
+ena_ucbeta=false
+val_ucbeta=90
+
+# ucc  (Unit cell dimension c [nm])
+ena_ucc=false
+val_ucc=5
+
+# ucgamma  (Unit cell rotation gamma [°])
+ena_ucgamma=false
+val_ucgamma=90
+
+# Enable/Disable ucn1
+ena_ucn1=false
+val_ucn1=0
+
+# Enable/Disable ucn2
+ena_ucn2=false
+val_ucn2=0
+
+# Enable/Disable ucn3
+ena_ucn3=false
+val_ucn3=0
+
+# Enable/Disable ucpsi
+ena_ucpsi=false
+val_ucpsi=0
+
+# GridPoints  (Half of the size of each image dimension)
+ena_GridPoints=true
+val_GridPoints=5
+
+# Enable/Disable BeamPos
+ena_BeamPos=true
+val_BeamPosX=0 # -GridPoints .. +GridPoints
+val_BeamPosY=0 # -GridPoints .. +GridPoints
+
+# Enable/Disable Generate PNG
+ena_generatePNG=true
+
+# Number of Images
+val_numimg=1
+
+# Output Path
+val_outPath=.
+
+Name of the experiment = BCC,iso
+
+# Rest of the parameters with default values and disable flag set to false

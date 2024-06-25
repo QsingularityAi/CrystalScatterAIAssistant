@@ -1,0 +1,176 @@
+# Name of the experiment = Sphere,large,mono
+
+# Alpha  (Internal ’alphash’) 
+ena_Alpha=true 
+val_Alpha=0 
+
+# Enable/Disable Ay1 
+ena_Ay1=true 
+val_Ay1=0 
+
+# Enable/Disable Ay2 
+ena_Ay2=true 
+val_Ay2=1 
+
+# Enable/Disable Ay3 
+ena_Ay3=true 
+val_Ay3=0 
+
+# Enable/Disable Az1 
+ena_Az1=true 
+val_Az1=0 
+
+# Enable/Disable Az2 
+ena_Az2=true 
+val_Az2=0 
+
+# Enable/Disable Az3 
+ena_Az3=true 
+val_Az3=1 
+
+# Enable/Disable Base 
+ena_Base=true 
+val_Base=0 
+
+# Enable/Disable Twinned 
+ena_Twinned=true 
+val_Twinned=True 
+
+# Enable/Disable WAXS 
+ena_WAXS=true 
+val_WAXS=False 
+
+# Enable/Disable CBInterior 
+ena_CBInterior=true 
+val_CBInterior=homogeneous {0} 
+
+# CBParticle  (Particle type selection) 
+ena_CBParticle=true 
+val_CBParticle=sphere {0} 
+
+# Enable/Disable CBPeak 
+ena_CBPeak=true 
+val_CBPeak=Anisotropic Gaussian {7} 
+
+# Enable/Disable Azi 
+ena_Azi=true 
+val_Azi=40 
+
+# Enable/Disable BFactor 
+ena_BFactor=true 
+val_BFactor=1 
+
+# Enable/Disable Ceff 
+ena_Ceff=true 
+val_Ceff=0.01 
+
+# Enable/Disable Ceffcyl 
+ena_Ceffcyl=true 
+val_Ceffcyl=0 
+
+# Enable/Disable Dbeta 
+ena_Dbeta=true 
+val_Dbeta=0.4 
+
+# DebyeWaller  (Also called Displacement [nm]) 
+ena_DebyeWaller=true 
+val_DebyeWaller=5 
+
+# Det  (Distance Sample - Detector [m]) 
+ena_Det=true 
+val_Det=1 
+
+# Enable/Disable Dist 
+ena_Dist=true 
+val_Dist=2 
+
+# DomainSize  (Radial domain size [nm]) 
+ena_DomainSize=true 
+val_DomainSize=15 
+
+# Enable/Disable Length 
+ena_Length=true 
+val_Length=20 
+
+# Enable/Disable Ordis 
+ena_Ordis=true 
+val_Ordis=Gaussian {0} 
+
+# Enable/Disable P1 
+ena_P1=true 
+val_P1=0 
+
+# Enable/Disable DebyeScherrer 
+ena_DebyeScherrer=true 
+val_DebyeScherrer=True 
+
+# Enable/Disable RBPara 
+ena_RBPara=true 
+val_RBPara=True 
+
+# RotAlpha  (Internal ’alpha’) 
+ena_RotAlpha=true 
+val_RotAlpha=0 
+
+# SigX  (editdom1) 
+ena_SigX=true 
+val_SigX=40 
+
+# SigY  (editdom2) 
+ena_SigY=true 
+val_SigY=40 
+
+# Enable/Disable Twinned 
+ena_Twinned=true 
+val_Twinned=True 
+
+# Enable/Disable WAXS 
+ena_WAXS=true 
+val_WAXS=False 
+
+# Enable/Disable CBInterior 
+ena_CBInterior=true 
+val_CBInterior=homogeneous {0} 
+
+# CBParticle  (Particle type selection) 
+ena_CBParticle=true 
+val_CBParticle=cylinder {1} 
+
+# Enable/Disable CBPeak 
+ena_CBPeak=true 
+val_CBPeak=Anisotropic Gaussian {7} 
+
+# Enable/Disable Azi 
+ena_Azi=true 
+val_Azi=0.03 
+
+# Enable/Disable BFactor 
+ena_BFactor=true 
+val_BFactor=0.01 
+
+# Enable/Disable Ceff 
+ena_Ceff=true 
+val_Ceff=0.01 
+
+# Enable/Disable Ceffcyl 
+ena_Ceffcyl=true 
+val_Ceffcyl=0 
+
+# Enable/Disable Dbeta 
+ena_Dbeta=true 
+val_Dbeta=20 
+
+# DebyeWaller  (Also called Displacement [nm]) 
+ena_DebyeWaller=true 
+val_DebyeWaller=5 
+
+# Output Path 
+ena_outPath=true 
+val_outPath=. 
+
+# Computation time parameters 
+ena_CalcTime=true 
+val_CalcTime=10 
+
+ena_PrepTime=true 
+val_PrepTime=5
