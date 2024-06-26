@@ -7,4 +7,4 @@ services:
       - "8000:8000"
     volumes:
       - .:/usr/src/app
-    command: ["chainlit", "run", "app.py"]
+    command: ["chainlit", "run", "Src/app.py"]
