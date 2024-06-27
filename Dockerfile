@@ -1,12 +1,12 @@
-# Use an official Python runtime as a parent image
-FROM python:3.10
-
-# Set the working directory
-WORKDIR /usr/src/app
-
+FROM python:3.9
+RUN useradd -m -u 1000 user
+USER user
+ENV HOME=/home/user \
+    PATH=/home/user/.local/bin:$PATH
+WORKDIR $HOME/app
+COPY --chown=user . $HOME/app
 # Copy the requirements file into the container
-COPY requirements.txt ./
-
+COPY app.py requirements.txt chainlit.md ./
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Run app.py when the container launches
-CMD ["chainlit", "run", "Src/app.py"]
+CMD ["chainlit", "run", "app.py","--port", "7860"]

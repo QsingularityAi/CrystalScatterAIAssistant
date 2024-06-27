@@ -1,6 +1,6 @@
 langchain
 langchain_community
-chainlit
+chainlit==1.0.506
 langchain-groq
 groq
 langchain-openai
